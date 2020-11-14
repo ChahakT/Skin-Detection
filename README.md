@@ -21,7 +21,7 @@ channels (UV,YIQ, YCbCr ). Therefore, unlike RGB, the location of the skin color
 chrominance channels will not be affected by changing the intensity of the
 illumination
 
-
+\
 **Training Pseudocode**
 
 
@@ -50,7 +50,7 @@ Read BGR pixel value; Convert to appropriate colour space; Write converted value
 
 If (pixel classification =skin):Append 1 Else: Append 0
 
-
+\
 **Testing Pseudocode**
 
 test_s= list for (RGB, YCC,HSV values) skin pixels in test set
@@ -102,7 +102,7 @@ Define predictions = gets predictions for entire test set
 Define getAccuracy = gets accuracy for test set
 
 
-
+\
 **Testing on non Test Image**
 
 Read the Image
