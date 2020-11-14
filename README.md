@@ -1,5 +1,5 @@
 
-# Skin-Detection
+# Skin-Detection( Using Bayesian Classifier )
 
 The appearance of skin in an image depends on the illumination conditions (illumination geometry and color) where the image was captured. Therefore, an
 important challenge in skin detection is to represent the color in a way that is invariant or at least in sensitive to changes in illumination. The choice of the color space affects greatly the performance of any skin detector and its sensitivity to change in illumination conditions.
